@@ -9,6 +9,14 @@ MythicDungeonToolsDB = {
 	},
 	["global"] = {
 		["anchorTo"] = "LEFT",
+		["currentDungeonIdx"] = 34,
+		["anchorFrom"] = "LEFT",
+		["minimap"] = {
+			["minimapPos"] = 241.6990961261272,
+		},
+		["nonFullscreenScale"] = 1,
+		["MDI"] = {
+		},
 		["colorPaletteInfo"] = {
 			["autoColoring"] = false,
 			["customPaletteValues"] = {
@@ -74,14 +82,6 @@ MythicDungeonToolsDB = {
 				}, -- [12]
 			},
 		},
-		["anchorFrom"] = "LEFT",
-		["minimap"] = {
-			["minimapPos"] = 241.6990961261272,
-		},
-		["nonFullscreenScale"] = 1,
-		["MDI"] = {
-		},
-		["currentDungeonIdx"] = 34,
 		["maximized"] = false,
 		["presets"] = {
 			{
@@ -91,27 +91,27 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[5] = {
+							},
 						},
 						["currentDungeonIdx"] = 1,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[5] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
+					},
+					["objects"] = {
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
-					},
-					["objects"] = {
+						["freehold"] = 1,
 					},
 				}, -- [1]
 			}, -- [1]
@@ -122,6 +122,15 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							[5] = {
+							},
+						},
+						["currentDungeonIdx"] = 15,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
 						["pulls"] = {
 							{
 								[11] = {
@@ -149,22 +158,13 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [1]
 						},
-						["currentDungeonIdx"] = 15,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
-						["riftOffsets"] = {
-							[5] = {
-							},
-						},
+					},
+					["objects"] = {
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
-					},
-					["objects"] = {
+						["freehold"] = 1,
 					},
 				}, -- [1]
 			},
@@ -172,13 +172,22 @@ MythicDungeonToolsDB = {
 				{
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
+						["freehold"] = 1,
 					},
 					["week"] = 5,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							[5] = {
+							},
+						},
+						["currentDungeonIdx"] = 18,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
 						["pulls"] = {
 							{
 								[13] = {
@@ -205,24 +214,27 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [1]
 						},
-						["currentDungeonIdx"] = 18,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
-						["riftOffsets"] = {
-							[5] = {
-							},
-						},
 					},
+					["difficulty"] = 10,
 					["objects"] = {
 						{
+							["d"] = {
+								3, -- [1]
+								1.1, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"ffffff", -- [5]
+								0, -- [6]
+								true, -- [7]
+							},
 							["l"] = {
 								"415.9", -- [1]
 								"-180.3", -- [2]
 								"415.9", -- [3]
 								"-179.3", -- [4]
 							},
+						}, -- [1]
+						{
 							["d"] = {
 								3, -- [1]
 								1.1, -- [2]
@@ -232,26 +244,14 @@ MythicDungeonToolsDB = {
 								0, -- [6]
 								true, -- [7]
 							},
-						}, -- [1]
-						{
 							["l"] = {
 								"431.2", -- [1]
 								"-125.3", -- [2]
 								"432.3", -- [3]
 								"-125.3", -- [4]
 							},
-							["d"] = {
-								3, -- [1]
-								1.1, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"ffffff", -- [5]
-								0, -- [6]
-								true, -- [7]
-							},
 						}, -- [2]
 					},
-					["difficulty"] = 10,
 				}, -- [1]
 			},
 			[20] = {
@@ -261,6 +261,15 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 2,
+						["riftOffsets"] = {
+							[5] = {
+							},
+						},
+						["currentDungeonIdx"] = 20,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
 						["pulls"] = {
 							{
 								["color"] = "ff3eff",
@@ -268,22 +277,13 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [1]
 						},
-						["currentDungeonIdx"] = 20,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
-						["riftOffsets"] = {
-							[5] = {
-							},
-						},
+					},
+					["objects"] = {
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
-					},
-					["objects"] = {
+						["freehold"] = 1,
 					},
 				}, -- [1]
 			},
@@ -294,27 +294,27 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[5] = {
+							},
 						},
 						["currentDungeonIdx"] = 22,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[5] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
-					},
-					["objects"] = {
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["objects"] = {
 					},
 				}, -- [1]
 			},
@@ -325,27 +325,27 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[5] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 						["currentDungeonIdx"] = 24,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[5] = {
+							},
 						},
+					},
+					["objects"] = {
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
-					},
-					["objects"] = {
+						["beguiling"] = 1,
 					},
 				}, -- [1]
 			},
@@ -353,18 +353,11 @@ MythicDungeonToolsDB = {
 				{
 					["difficulty"] = 10,
 					["week"] = 5,
+					["objects"] = {
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							[5] = {
-							},
-						},
-						["currentDungeonIdx"] = 29,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -383,16 +376,23 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [1]
 						},
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = false,
+						["currentDungeonIdx"] = 29,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
+						["riftOffsets"] = {
+							[5] = {
+							},
+						},
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
+						["beguiling"] = 1,
 					},
-					["objects"] = {
+					["colorPaletteInfo"] = {
+						["autoColoring"] = false,
 					},
 				}, -- [1]
 			},
@@ -400,19 +400,50 @@ MythicDungeonToolsDB = {
 				{
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
+						["beguiling"] = 1,
 					},
 					["uid"] = "QOA9YjwMQh2",
-					["week"] = 5,
+					["objects"] = {
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
+						},
+						["currentDungeonIdx"] = 31,
+						["teeming"] = false,
+						["selection"] = {
+							1, -- [1]
+						},
 						["riftOffsets"] = {
 							[5] = {
 							},
 						},
-						["currentDungeonIdx"] = 31,
+					},
+					["difficulty"] = 10,
+					["week"] = 5,
+				}, -- [1]
+			},
+			[34] = {
+				{
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["week"] = 6,
+					["value"] = {
+						["currentPull"] = 1,
+						["currentSublevel"] = 3,
+						["riftOffsets"] = {
+							[6] = {
+							},
+						},
+						["currentDungeonIdx"] = 34,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
@@ -420,28 +451,12 @@ MythicDungeonToolsDB = {
 						["pulls"] = {
 							{
 								["color"] = "ff3eff",
-							}, -- [1]
-						},
-					},
-					["difficulty"] = 10,
-					["objects"] = {
-					},
-				}, -- [1]
-			},
-			[34] = {
-				{
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-						["beguiling"] = 1,
-					},
-					["week"] = 6,
-					["value"] = {
-						["currentPull"] = 1,
-						["currentSublevel"] = 3,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
+								[12] = {
+									1, -- [1]
+								},
+								[15] = {
+									1, -- [1]
+								},
 								[11] = {
 									4, -- [1]
 									5, -- [2]
@@ -450,27 +465,12 @@ MythicDungeonToolsDB = {
 									1, -- [5]
 									2, -- [6]
 								},
-								[15] = {
-									1, -- [1]
-								},
-								[12] = {
-									1, -- [1]
-								},
 							}, -- [1]
 						},
-						["currentDungeonIdx"] = 34,
-						["teeming"] = false,
-						["selection"] = {
-							1, -- [1]
-						},
-						["riftOffsets"] = {
-							[6] = {
-							},
-						},
-					},
-					["objects"] = {
 					},
 					["difficulty"] = 10,
+					["objects"] = {
+					},
 				}, -- [1]
 			},
 			[35] = {
@@ -481,17 +481,6 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 2,
 						["currentSublevel"] = 3,
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-							[5] = {
-							},
-						},
-						["currentDungeonIdx"] = 35,
-						["teeming"] = false,
-						["selection"] = {
-							2, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -529,13 +518,24 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [2]
 						},
-					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
+						["currentDungeonIdx"] = 35,
+						["teeming"] = false,
+						["selection"] = {
+							2, -- [1]
+						},
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+							[5] = {
+							},
+						},
 					},
 					["difficulty"] = 10,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
 				}, -- [1]
 			},
 		},
