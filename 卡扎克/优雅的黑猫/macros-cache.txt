@@ -1,0 +1,16 @@
+VER 3 0100000000000002 "SP+狂暴/化身" "136222"
+/cast 悚然角斗士的勋章
+/cast 化身：丛林之王
+/cast 狂暴
+END
+VER 3 0100000000000003 "大喊宁静CD已好" "INV_MISC_QUESTIONMARK"
+/y 优雅的黑猫  宁静CD已好
+END
+VER 3 0100000000000001 "熊+甲" "236149"
+/cast 熊形态
+/cast 铁鬓
+END
+VER 3 0100000000000004 "给目标上骷髅" "INV_MISC_QUESTIONMARK"
+/target XXX
+/script SetRaidTarget("target",8)
+END

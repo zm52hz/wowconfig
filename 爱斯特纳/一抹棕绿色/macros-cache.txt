@@ -1,0 +1,19 @@
+VER 3 0100000000000002 "111" "611419"
+/click TotemFrameTotem1 RightButton
+/cast 玄牛雕像
+/target 玄牛雕像
+/cast [help]嚎镇八方
+/targetlasttarget
+END
+VER 3 0100000000000003 "qc" "611419"
+/target 玄牛雕像
+/cast [@player] 玄牛雕像
+/cast [noharm]嚎镇八方
+/targetlasttarget [help]
+/click TotemFrameTotem1 RightButton
+END
+VER 3 0100000000000001 "牛牛" "611419"
+/cast 玄牛雕像
+/target 玄牛雕像
+/cast 嚎镇八方
+END
