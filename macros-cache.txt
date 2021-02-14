@@ -22,25 +22,16 @@ VER 3 0000000000000008 "foucus" "236283"
 /cast [target=focus]  嫁祸诀窍
 END
 VER 3 0000000000000011 "kulou" "644389"
->>>>>>> ef2be4768b4be5b0fe1a259aee888f5aca96b362
 /target XXX
 /script SetRaidTarget("target",8)
 END
 VER 3 000000000000000B "kulou" "1360978"
-=======
-VER 3 0000000000000008 "foucus" "236283"
-/cast [target=focus]  嫁祸诀窍
+/target XXX
+/script SetRaidTarget("target",8)
 END
 VER 3 000000000000000C "任务字体放大宏" "136116"
 /run QuestFont:SetFont("Fonts\\ARKai_T.ttf", 20)
 END
 VER 3 0000000000000003 "坐骑" "Ability_Mount_Charger"
 /RandomMount
-END
-VER 3 0000000000000007 "暗影之舞+死亡符文" "132282"
-/cast 暗影步
-/cast 死亡符记
-/cast  暗影之舞
-/cast 不可思议的量子装置
-/cast 暗影打击
 END

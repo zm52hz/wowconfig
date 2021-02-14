@@ -20,3 +20,10 @@ X: 149
 Y: -4
 W: 365
 H: 241
+Frame: ElvUI_BankContainerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -50
+Y: 38
+W: 406
+H: 386

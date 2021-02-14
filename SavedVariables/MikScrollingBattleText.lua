@@ -2,11 +2,40 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
+			["scrollAreas"] = {
+				["Outgoing"] = {
+					["scrollHeight"] = 195,
+					["offsetX"] = -510,
+					["scrollWidth"] = 210,
+					["behavior"] = "MSBT_NORMAL",
+					["offsetY"] = 17,
+					["animationStyle"] = "Straight",
+					["iconAlign"] = "Left",
+				},
+				["Incoming"] = {
+					["scrollWidth"] = 220,
+					["offsetX"] = -734,
+					["scrollHeight"] = 190,
+					["behavior"] = "MSBT_NORMAL",
+					["offsetY"] = 24,
+					["textAlignIndex"] = 1,
+					["animationStyle"] = "Straight",
+				},
+				["Static"] = {
+					["offsetY"] = -289,
+					["offsetX"] = -5,
+					["disabled"] = true,
+				},
+				["Notification"] = {
+					["direction"] = "Down",
+					["offsetX"] = -173,
+					["offsetY"] = -3,
+				},
+			},
 			["powerThrottleDuration"] = 5,
 			["hotThrottleDuration"] = 5,
 			["enableBlizzardDamage"] = false,
-			["dotThrottleDuration"] = 5,
-			["creationVersion"] = "5.7.152",
+			["enableBlizzardHealing"] = false,
 			["events"] = {
 				["PET_INCOMING_HOT_CRIT"] = {
 					["disabled"] = true,
@@ -290,38 +319,8 @@ MSBTProfiles_SavedVars = {
 					["disabled"] = true,
 				},
 			},
-			["enableBlizzardHealing"] = false,
-			["skillIconsDisabled"] = true,
-			["scrollAreas"] = {
-				["Notification"] = {
-					["direction"] = "Down",
-					["offsetX"] = -173,
-					["offsetY"] = -3,
-				},
-				["Outgoing"] = {
-					["scrollWidth"] = 210,
-					["offsetX"] = -462,
-					["scrollHeight"] = 195,
-					["behavior"] = "MSBT_NORMAL",
-					["offsetY"] = 18,
-					["animationStyle"] = "Straight",
-					["iconAlign"] = "Left",
-				},
-				["Static"] = {
-					["offsetY"] = -289,
-					["disabled"] = true,
-					["offsetX"] = -5,
-				},
-				["Incoming"] = {
-					["scrollHeight"] = 190,
-					["offsetX"] = -734,
-					["scrollWidth"] = 220,
-					["behavior"] = "MSBT_NORMAL",
-					["offsetY"] = 24,
-					["textAlignIndex"] = 1,
-					["animationStyle"] = "Straight",
-				},
-			},
+			["dotThrottleDuration"] = 5,
+			["creationVersion"] = "5.7.152",
 		},
 	},
 }
